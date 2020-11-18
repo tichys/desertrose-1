@@ -59,7 +59,7 @@
     icon = 'icons/effects/turf_overlay.dmi'
     icon_state = "sand_overlay"
     anchored = TRUE
-    layer = FLY_LAYER
+    layer = ABOVE_OPEN_TURF_LAYER
 
 /obj/effect/overlay/wateredge/sandwater
     name = "sand water overlay"
